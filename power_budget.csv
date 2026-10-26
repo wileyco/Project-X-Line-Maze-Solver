@@ -1,0 +1,5 @@
+Component,Quantity,Idle/standby current each (mA),Typical running current each (mA),Peak/stall current each (mA),Basis / caveat
+ESP32 board,1,80,100,200,Approximate planning values; Wi-Fi/BLE and board regulator affect draw
+5-channel IR array,1,25,25,50,Estimate; use exact sensor datasheet
+L298N logic/quiescent,1,5,5,10,Approximate; driver losses and module LEDs vary
+N20 motors,2,0,250,1200,Placeholder only; replace with exact motor datasheet stall current

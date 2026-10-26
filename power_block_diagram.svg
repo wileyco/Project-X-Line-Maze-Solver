@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="420" viewBox="0 0 900 420">
+<rect width="900" height="420" fill="white"/><style>text{font-family:Arial,sans-serif;font-size:17px;fill:#17202a}.box{fill:#f3f6fa;stroke:#34495e;stroke-width:2}.warn{fill:#fff3cd;stroke:#856404;stroke-width:2}.arrow{stroke:#34495e;stroke-width:2;fill:none;marker-end:url(#a)}</style><defs><marker id="a" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0,0 L0,6 L9,3 z" fill="#34495e"/></marker></defs>
+<text x="450" y="32" text-anchor="middle" font-size="23">LMS power-block diagram (conceptual)</text>
+<rect class="box" x="30" y="75" width="180" height="75" rx="8"/><text x="120" y="104" text-anchor="middle">3S LiPo</text><text x="120" y="128" text-anchor="middle">11.1 V nominal</text>
+<rect class="box" x="300" y="65" width="210" height="95" rx="8"/><text x="405" y="100" text-anchor="middle">L298N driver</text><text x="405" y="125" text-anchor="middle">motor power rail</text>
+<rect class="box" x="650" y="65" width="210" height="95" rx="8"/><text x="755" y="100" text-anchor="middle">Two DC motors</text><text x="755" y="125" text-anchor="middle">left + right</text>
+<path class="arrow" d="M210 110 H300"/><path class="arrow" d="M510 110 H650"/>
+<rect class="box" x="300" y="240" width="210" height="85" rx="8"/><text x="405" y="272" text-anchor="middle">Regulated supply</text><text x="405" y="297" text-anchor="middle">to ESP32 VIN/5V</text>
+<rect class="box" x="30" y="240" width="180" height="85" rx="8"/><text x="120" y="272" text-anchor="middle">ESP32-WROOM-32</text><text x="120" y="297" text-anchor="middle">3.3 V logic</text>
+<path class="arrow" d="M210 280 H300"/><path class="arrow" d="M405 240 V160"/>
+<rect class="box" x="650" y="240" width="210" height="85" rx="8"/><text x="755" y="272" text-anchor="middle">5-channel IR array</text><text x="755" y="297" text-anchor="middle">ADC signals to ESP32</text>
+<path class="arrow" d="M650 280 H510"/>
+<text x="450" y="370" text-anchor="middle">Battery negative, ESP32 GND and driver GND must be common.</text>
+<text x="450" y="395" text-anchor="middle">Use correct regulation; never connect 11.1 V directly to ESP32 3V3.</text></svg>

@@ -1,0 +1,13 @@
+Category,Exact model / description,Qty,Estimated unit price (INR),Estimated subtotal (INR),Key specification / rationale,Supplier link (verify listing)
+Controller,ESP32-WROOM-32 development board (exact vendor SKU to be selected),1,550,550,ESP32 Arduino framework; 3.3 V logic; ADC for five sensors,https://robu.in/
+Sensors,5-channel analog IR reflectance sensor array (exact model to be selected),1,450,450,Five analog channels; operate at compatible supply/output voltage,https://robu.in/
+Motor driver,L298N dual H-bridge module,1,180,180,Matches Appendix A; verify current and thermal limits against motors,https://robu.in/
+Motors,"N20 metal gearmotor, 6–12 V (ratio and SKU to be selected)",2,350,700,Choose speed/torque and stall current only after checking datasheet,https://robu.in/
+Wheels,Wheels compatible with selected N20 shaft,2,80,160,Must fit motor shaft and chassis,https://robu.in/
+Chassis,2WD robot chassis plate with caster/mounts,1,450,450,"Fits two motors, battery and sensor array",https://robu.in/
+Battery,"3S LiPo 11.1 V, approx. 1000–1500 mAh, adequate C-rating",1,1200,1200,Matches Appendix A nominal rail; exact C rating and charger must be verified,https://robu.in/
+Power safety,3S balance charger (if not already available),1,650,650,Required for safe charging of LiPo pack,https://robu.in/
+Wiring,"Jumper wires, motor leads, connectors and switch",1,250,250,Reliable connections and accessible power isolation,https://electronicscomp.com/
+Protection,"Bulk capacitor 470 µF, 16 V or higher; 0.1 µF ceramics; fuse",1,180,180,Supply transient and motor-noise mitigation; verify ratings,https://electronicscomp.com/
+Shipping,Estimated shipping allowance,1,400,400,Estimate only; varies by supplier and location,https://robu.in/
+Contingency,10% approximate contingency on parts,1,520,520,For price variance and small missing parts,
